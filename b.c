@@ -12,7 +12,7 @@ int main()
             for(j=0;j<c1;j++)
             scanf("%d",&a[i][j]);
         }
-        printf("\ndisplaying maTRIX 1\n");
+        printf("\ndisplaying MATRIX 1\n");
         for(i=0;i<r1;i++){
             for(j=0;j<c1;j++)
             printf("%d\t",a[i][j]);
@@ -23,7 +23,7 @@ int main()
             for(j=0;j<c2;j++)
             scanf("%d",&b[i][j]);
         }
-        printf("\ndisplaying maTRIX 2\n");
+        printf("\ndisplaying MATRIX 2\n");
         for(i=0;i<r2;i++){
             for(j=0;j<c2;j++)
             printf("%d\t",b[i][j]);
@@ -38,7 +38,7 @@ int main()
                 c[i][j]+=a[i][k]*b[k][j];
             }
         
-        printf("\nmultiplication of matrix\n");
+        printf("\nMULTIPLICATION OF MATRIX\n");
         for(i=0;i<r1;i++){
             for(j=0;j<c2;j++)
             printf("%d\t",c[i][j]);
